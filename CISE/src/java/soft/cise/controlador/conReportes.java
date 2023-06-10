@@ -13,7 +13,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import soft.cise.modeloDTO.reporteDTO;
+import soft.cise.modeloDTO.reporteVentasDTO;
 import soft.cise.modeloDao.reporteDAO;
+import soft.cise.modeloDao.reporteVentasDAO;
 
 /**
  *
@@ -51,6 +53,18 @@ public class conReportes extends HttpServlet {
                     request.setAttribute("totalMes", total);
                     request.getSession().setAttribute("reporteProducto", reporteProducto);
                     request.getRequestDispatcher("msistema/reportes/reporteProducto.jsp").forward(request, response);
+                    break;
+                case "reporteVentas":
+                    //request.getRequestDispatcher(reporteVentas).forward(request, response);
+                    reporteVentasDAO reporteventasdto = new reporteVentasDAO();
+                    ArrayList<reporteVentasDTO> reporteVentas = reporteventasdto.sql_selectAll();
+                     double ganancia=0;
+                    for (reporteVentasDTO reporte : reporteVentas) {
+                        ganancia = reporte.getPrecioVenta()- reporte.getPrecioCompra();
+                    }
+                    request.setAttribute("ganancia", ganancia);
+                    request.getSession().setAttribute("reporteVentas", reporteVentas);
+                    request.getRequestDispatcher("msistema/reportes/reporteVentas.jsp").forward(request, response);
                     break;
             }
 
