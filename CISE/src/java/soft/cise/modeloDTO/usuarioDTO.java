@@ -42,6 +42,22 @@ public class usuarioDTO {
         this.estado = estado;
     }
 
+    public usuarioDTO(int id, String nombre, String correo, String perfil, int estado) {
+        this.id = id;
+        this.nombre = nombre;
+        this.correo = correo;
+        this.perfil = perfil;
+        this.estado = estado;
+    }
+
+    public usuarioDTO(int id, String nombre, String correo, String clave, String perfil) {
+        this.id = id;
+        this.nombre = nombre;
+        this.correo = correo;
+        this.clave = clave;
+        this.perfil = perfil;
+    }
+
     public int getId() {
         return id;
     }

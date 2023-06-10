@@ -6,6 +6,7 @@
 package soft.cise.controlador;
 
 import java.io.IOException;
+import java.io.InputStream;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -32,12 +33,16 @@ public class conUsuario extends HttpServlet {
     String sistema = "sistema.jsp";
     String index = "index.jsp";
     String login = "login.jsp";
+    String addUsers = "msistema/users/addUsers.jsp";
+    String listaUsuario = "msistema/users/listUsuario.jsp";
+    String updateUsuario = "msistema/users/updateUsuario.jsp";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try {
             String accion = request.getParameter("txtAccion");
             String acceso = "";
+            int id;
 
             HttpSession sessionOk = request.getSession();
             switch (accion) {
@@ -88,8 +93,70 @@ public class conUsuario extends HttpServlet {
 
                 case "eliminar":
                     break;
+                case "addUsers":
+                    acceso = addUsers;
+                    request.getRequestDispatcher(acceso).forward(request, response);
+                    break;
+                case "agregar":
+                    usuarioDTO user = new usuarioDTO();
+                    user.setNombre(request.getParameter("txtNombre"));
+                    user.setCorreo(request.getParameter("txtCorreo"));
+                    user.setClave(request.getParameter("txtPass"));
+                    user.setPerfil(request.getParameter("txtPerfil"));
+                    usuarioDAO metAddU = new usuarioDAO();
+                    if(metAddU.addUsu(user) != true){
+                        acceso = addUsers;
+                        request.getRequestDispatcher(acceso).forward(request, response);
+                    }else {
+                        acceso = sistema;
+                        request.getRequestDispatcher(acceso).forward(request, response);
+                    }
+                    break;
+                case "listUsuario":
+                    request.getRequestDispatcher(listaUsuario).forward(request, response);
+                    break;
+                case "updateUsuario":
+                    request.setAttribute("id", request.getParameter("id"));
+                    acceso = updateUsuario;
+                    request.getRequestDispatcher(acceso).forward(request, response);
+                    break;
+                case "actualizar":
+                    usuarioDTO usudto = new usuarioDTO();
+                    usudto.setId(Integer.parseInt(request.getParameter("id")));
+                    usudto.setNombre(request.getParameter("txtNombre"));
+                    usudto.setCorreo(request.getParameter("txtCorreo"));
+                    usudto.setClave(request.getParameter("txtPass"));
+                    usudto.setPerfil(request.getParameter("txtPerfil"));
+                    usuarioDAO usuDaoUpdate = new usuarioDAO();
+                    usuDaoUpdate.sql_update(usudto);
+                    acceso = listaUsuario;
+                    request.getRequestDispatcher(acceso).forward(request, response);
+                    break;
+                case "delete1":
+                    id = Integer.parseInt(request.getParameter("id"));
+                    usuarioDAO usuDelete1 = new usuarioDAO();
+                    if (usuDelete1.sql_delete(id) != true){
+                        acceso = addUsers;
+                        request.getRequestDispatcher(acceso).forward(request, response);
+                    }
+                    break;
+                case "delete2":
+                    id = Integer.parseInt(request.getParameter("id"));
+                    usuarioDAO usuDelete2 = new usuarioDAO();
+                    if(usuDelete2.sql_delete(id) != true){
+                        acceso = listaUsuario;
+                        request.getRequestDispatcher(acceso).forward(request, response);
+                    }
+                    break;
+                case "listId":
+                    usuarioDTO nombreU = new usuarioDTO();
+                    nombreU.setNombre(request.getParameter("txtNombre"));
+                    usuarioDAO usuListId = new usuarioDAO();
+                    usuListId.sql_selectByNameUser(nombreU);
+                    request.getRequestDispatcher(listaUsuario).forward(request, response);
+                    break;
             }
-
+            
         } catch (Exception e) {
             System.out.println("error al realizar consultas" + e.getMessage());
 
