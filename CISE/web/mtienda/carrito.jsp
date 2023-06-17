@@ -107,13 +107,19 @@
                                                 for (articuloDTO a : articulos) {
                                                     productoCon += 1;
                                         %>
-                                        <input type="text" name="txtId<%=productoCon%>" value="<%=a.getIdProducto()%>">
-                                        <input type="hidden" name="txtCantidad<%=productoCon%>" value="<%=a.getCantidad()%>">
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <input class="form-control" type="text" name="txtId<%=productoCon%>" value="<%=a.getIdProducto()%>" readonly="readonly">
+                                            </div>
+                                                <input type="hidden" name="txtCantidad<%=productoCon%>" value="<%=a.getCantidad()%>">
 
                                         <% }
                                             }%>
-                                            <input type="text" name="idUsuario" value="<%=session.getAttribute("idUsuario") %>">
-                                        <div class="form-group">
+                                            <div class="col-md-6 mb-3">
+                                                <input class="form-control" type="text" name="idUsuario" value="<%=session.getAttribute("idUsuario") %>" readonly="readonly">
+                                            </div>
+                                        </div>
+                                            <div class="form-group">
                                             <div class="row">
                                                 <div class="col-4">
                                                     <label>Nombre Completo</label>
@@ -211,7 +217,7 @@
                                             <spam>Total producto</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" id="txtSubtotal" name="txtTotalProducto" value="<%=Math.round(total * 100.0) / 100.0%>" type="text">
+                                            <input class="form-control" id="txtSubtotal" name="txtTotalProducto" value="<%=Math.round(total * 100.0) / 100.0%>" type="text" readonly="readonly">
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +227,7 @@
                                             <spam>Costo de Envio</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" id="txtSubtotal2" name="txtCostoEnvio" type="text" value="<%=Math.round(costoEnvio * 100.0) / 100.0%>" >
+                                            <input class="form-control" id="txtSubtotal2" name="txtCostoEnvio" type="text" value="<%=Math.round(costoEnvio * 100.0) / 100.0%>" readonly="readonly">
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +237,7 @@
                                             <spam>IGV</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtIGV" type="text" value="<%=Math.round(IGV * 100.0) / 100.0%>" >
+                                            <input class="form-control" name="txtIGV" type="text" value="<%=Math.round(IGV * 100.0) / 100.0%>" readonly="readonly">
                                         </div>
                                     </div> 
                                 </div>
@@ -241,7 +247,7 @@
                                             <spam>Total a pagar</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtTotalPago" type="text" value="<%=Math.round((total + IGV + costoEnvio) * 100.0) / 100.0%>" >
+                                            <input class="form-control" name="txtTotalPago" type="text" value="<%=Math.round((total + IGV + costoEnvio) * 100.0) / 100.0%>" readonly="readonly" >
                                         </div>
                                     </div> 
                                 </div>

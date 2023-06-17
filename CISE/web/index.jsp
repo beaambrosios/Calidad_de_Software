@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
-    Created on : 19-abr-2019, 11:57:10
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : Calidad de Software
 --%>
 
 <%@page import="soft.cise.modeloDao.metProduc"%>

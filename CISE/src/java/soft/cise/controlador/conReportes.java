@@ -57,12 +57,18 @@ public class conReportes extends HttpServlet {
                 case "reporteVentas":
                     //request.getRequestDispatcher(reporteVentas).forward(request, response);
                     reporteVentasDAO reporteventasdto = new reporteVentasDAO();
-                    ArrayList<reporteVentasDTO> reporteVentas = reporteventasdto.sql_selectAll();
+                    ArrayList<reporteVentasDTO>reporteVentas = reporteventasdto.sql_selectAll();
                      double ganancia=0;
+                     double sumaventa=0;
+                     double sumacompra=0;
                     for (reporteVentasDTO reporte : reporteVentas) {
-                        ganancia = reporte.getPrecioVenta()- reporte.getPrecioCompra();
+                        ganancia += reporte.getPrecioVenta()- reporte.getPrecioCompra();
+                        sumaventa+=reporte.getTotalVenta();
+                        sumacompra+=reporte.getTotalCompra();
                     }
                     request.setAttribute("ganancia", ganancia);
+                    request.setAttribute("sumaventa",sumaventa);
+                    request.setAttribute("sumacompra",sumacompra);
                     request.getSession().setAttribute("reporteVentas", reporteVentas);
                     request.getRequestDispatcher("msistema/reportes/reporteVentas.jsp").forward(request, response);
                     break;

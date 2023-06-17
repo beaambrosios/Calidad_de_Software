@@ -1,7 +1,7 @@
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : Beatriz Ambrosio
 --%>
 
 <%@page import="soft.cise.modeloDTO.usuarioDTO"%>
@@ -43,19 +43,25 @@
                                 </div>
                                 <form class="card-body bg-white" action="<%=request.getContextPath()%>/conusuario.do" method="post" autocomplete="off">
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Nombre Usuario</label>
                                                 <input class="form-control" type="text" name="txtNombre" value="<%=usuariodto.getNombre()%>">
                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Correo</label>
                                                 <input class="form-control" type="email" name="txtCorreo" value="<%=usuariodto.getCorreo()%>">
                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Contraseña</label>
                                                 <input class="form-control" type="password" name="txtPass" value="<%=usuariodto.getClave()%>">
                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Perfil Usuario</label>
                                                 <%
@@ -94,11 +100,10 @@
                                                 
 
                                             </div>
-                                                <input type="hidden" name="id" value="<%=id%>">
-
                                         </div>
-                                                
+                                                <input type="hidden" name="id" value="<%=id%>">                             
                                     </div>
+                                    
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">

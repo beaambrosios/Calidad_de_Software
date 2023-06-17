@@ -33,7 +33,26 @@
                                         <h5>Reporte de gastos en productos por mes</h5>
                                     </div>
                                     <div class="col-5">
-                                        
+                                        <div class="contenedor-menu">
+                                                <ul class="menu">
+                                                    <li class=""><a href="#"><i class="icono izquierda fas fa-folder-plus"></i>Seleccionar Mes<i class="icono derecha fa fa-chevron-down"></i></a>
+                                                        <ul>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=1">Enero</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=2">Febrero</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=3">Marzo</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=4">Abril</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=5">Mayo</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=6">Junio</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=7">Julio</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=8">Agosto</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=9">Septiembre</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=10">Octubre</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=11">Nobiembre</a></li>
+                                                            <li><a href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=12">Dicienbre</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                     </div>
                                 </div>
                             </div>

@@ -91,6 +91,24 @@
                                         <input class="form-control" value="S/.<%=request.getAttribute("ganancia") %>" readonly="readonly">
                                     </div>
                             </div>
+                                    <br>
+                            <div class="row">
+                                    <div class="col-3">
+                                        <h5>Suma Total Compras:</h5>
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="form-control" value="S/.<%=request.getAttribute("sumacompra")%>" readonly="readonly">
+                                    </div>
+                            </div>
+                                     <br>
+                            <div class="row">
+                                    <div class="col-3">
+                                        <h5>Suma Total Ventas:</h5>
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="form-control" value="S/.<%=request.getAttribute("sumaventa")%>" readonly="readonly">
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>

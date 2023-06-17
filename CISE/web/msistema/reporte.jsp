@@ -27,7 +27,7 @@
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card cardespa">
                                 <div class="card-body">
-                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=6"><i class="far fa-file-alt"></i></a>
+                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=0"><i class="far fa-file-alt"></i></a>
                                     <h5 class="text1">Reporte Productos </h5>
                                 </div>
                             </div>
