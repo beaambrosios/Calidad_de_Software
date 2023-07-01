@@ -160,8 +160,15 @@ public class comCatalogo extends HttpServlet {
                         ventaProducto.sql_insert(compradto);
                         sessionOK.removeAttribute("carrito");
 
-                        request.getRequestDispatcher("index.jsp").forward(request, response);
+                        request.getRequestDispatcher("confirmado.jsp").forward(request, response);
                     }
+                    break;
+                    case "detalleVentaProducto":
+                    request.setAttribute("idVenta", request.getParameter("txtIdVenta"));
+                    ventaProductosDAO ventaProducto = new ventaProductosDAO();
+                    ArrayList<productoDTO> lisProductoV = ventaProducto.sql_detalleVentaProducto2(Integer.parseInt(request.getParameter("txtIdVenta")));
+                    request.getSession().setAttribute("listaProductoV", lisProductoV);
+                    request.getRequestDispatcher("confirmado.jsp").forward(request, response);
                     break;
 
             }

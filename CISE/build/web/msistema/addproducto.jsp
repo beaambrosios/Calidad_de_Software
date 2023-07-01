@@ -34,55 +34,90 @@
                                 <div class="card-header">
                                     <h5><i class="fab fa-product-hunt"></i>&nbsp;&nbsp;Agregar Productos</h5>
                                 </div>
-                                <form class="card-body bg-white" action="<%=request.getContextPath()%>/comproducto.do" method="post" enctype="multipart/form-data" autocomplete="off">
+                                <form class="card-body bg-white needs-validation" action="<%=request.getContextPath()%>/comproducto.do" method="post" enctype="multipart/form-data" autocomplete="off" novalidate>
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtProducto" placeholder="Nombre Producto">
+                                                <input class="form-control" type="text" name="txtProducto" placeholder="Nombre Producto" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese su nombre de producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtCantidad" placeholder="cantidad de productos">
+                                                <input class="form-control" type="text" name="txtCantidad" placeholder="cantidad de productos" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingresela cantidad de prodducto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <select class="form-control" name="txtMoneda">
-                                                    <option>Moneda de compra</option>
+                                                <select class="form-control" name="txtMoneda" required>
+                                                    <option value="">Moneda de compra</option>
                                                     <option value="1">Dolares</option>
                                                     <option value="2">Soles</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione la moneda de compra.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtPrecioCompra" placeholder="Precio Compra">
+                                                <input class="form-control" type="text" name="txtPrecioCompra" placeholder="Precio Compra" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el precio de compra.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTipoCambio" placeholder="Tipo de Cambio">
+                                                <input class="form-control" type="text" name="txtTipoCambio" placeholder="Tipo de Cambio" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el tipo de cambio.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtPrecioVenta" placeholder="Precio Venta del Producto">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtIGV" placeholder="IGV">                                         
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtProveedor" placeholder="Nombre Proveedor">                                         
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla1" placeholder="Talla1">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla2" placeholder="Talla2">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla3" placeholder="Talla3">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla4" placeholder="Talla4">
+                                                <input class="form-control" type="text" name="txtPrecioVenta" placeholder="Precio Venta del Producto" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el precio de venta del producto.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <select class="form-control" name="txtCategoria">
+                                                <input class="form-control" type="hidden" name="txtIGV" placeholder="IGV"  value=1.8 readonly="readonly"> 
+                            
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="txtProveedor" placeholder="Nombre Proveedor" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el nombre del proveedor.
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="txtTalla1" placeholder="Talla1" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 1.
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="txtTalla2" placeholder="Talla2" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 2.
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="txtTalla3" placeholder="Talla3" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 3.
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="txtTalla4" placeholder="Talla4" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 4.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <select class="form-control" name="txtCategoria" required>
+                                                    <option value="">Categoria de producto</option>
                                                     <%
                                                         metProduc metCategoria = new metProduc();
                                                         List<productoDTO> lis2 = metCategoria.listarCateg();
@@ -97,16 +132,28 @@
                                                     <option value="<%=con2%>"><%=productodto.getCategoria()%></option>
                                                     <% }%>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione la categoria del producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtModelo" placeholder="Modelo">
+                                                <input class="form-control" type="text" name="txtModelo" placeholder="Modelo" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el modelo del produto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleFormControlTextarea1" >Descripcion</label>
-                                                <textarea class="form-control" name="txtDescripcion" ></textarea>
+                                                <textarea class="form-control" name="txtDescripcion" required ></textarea>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la descripcion del producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <input type="file" class="form-control-file" name="txtImgProducto">
+                                                <input type="file" class="form-control-file" name="txtImgProducto" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione la imagen del producto.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -123,6 +170,26 @@
                                         </div>
                                     </div>
                                 </form>
+                                    <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                      'use strict';
+                                      window.addEventListener('load', function() {
+                                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                        var forms = document.getElementsByClassName('needs-validation');
+                                        // Loop over them and prevent submission
+                                        var validation = Array.prototype.filter.call(forms, function(form) {
+                                          form.addEventListener('submit', function(event) {
+                                            if (form.checkValidity() === false) {
+                                              event.preventDefault();
+                                              event.stopPropagation();
+                                            }
+                                            form.classList.add('was-validated');
+                                          }, false);
+                                        });
+                                      }, false);
+                                    })();
+                                    </script>
                             </div>
                         </div>
                     </div>

@@ -93,7 +93,7 @@
 
                     <a class="btn btn-warning" href="javascript:window.history.go(-2)">Seguir Comprando</a>
                     <div class="espacio"></div>
-                    <form action="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=Comprar" method="POST">
+                    <form class="needs-validation" action="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=Comprar" method="POST" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="card">
@@ -125,7 +125,10 @@
                                                     <label>Nombre Completo</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtNombreCliente">
+                                                    <input class="form-control" type="text" name="txtNombreCliente" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su nombre completo.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,7 +138,10 @@
                                                     <label>DNI</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDni">
+                                                    <input class="form-control" type="text" name="txtDni" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su DNI.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,7 +151,10 @@
                                                     <label>Telefono 1</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtTelefono1">
+                                                    <input class="form-control" type="text" name="txtTelefono1" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su telefono.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -155,7 +164,10 @@
                                                     <label>Telefono 2</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtTelefono2">
+                                                    <input class="form-control" type="text" name="txtTelefono2" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su telefono.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -165,7 +177,10 @@
                                                     <label>Departamento</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDepartamento">
+                                                    <input class="form-control" type="text" name="txtDepartamento" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su departamento.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -175,7 +190,10 @@
                                                     <label>Provincia</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtProvincia">
+                                                    <input class="form-control" type="text" name="txtProvincia" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su provincia.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -185,7 +203,10 @@
                                                     <label>Distrito</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDistrito">
+                                                    <input class="form-control" type="text" name="txtDistrito" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su Distrito.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -195,7 +216,10 @@
                                                     <label>Direccion</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDireccion">
+                                                    <input class="form-control" type="text" name="txtDireccion" required>
+                                                    <div class="invalid-feedback">
+                                                    Por favor, ingrese su Direccion.
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,10 +258,9 @@
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-4">
-                                            <spam>IGV</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtIGV" type="text" value="<%=Math.round(IGV * 100.0) / 100.0%>" readonly="readonly">
+                                            <input class="form-control" name="txtIGV" type="hidden" value="<%=Math.round(IGV * 100.0) / 100.0%>" readonly="readonly">
                                         </div>
                                     </div> 
                                 </div>
@@ -247,7 +270,7 @@
                                             <spam>Total a pagar</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtTotalPago" type="text" value="<%=Math.round((total + IGV + costoEnvio) * 100.0) / 100.0%>" readonly="readonly" >
+                                            <input class="form-control" name="txtTotalPago" type="text" value="<%=Math.round((total + costoEnvio) * 100.0) / 100.0%>" readonly="readonly" >
                                         </div>
                                     </div> 
                                 </div>
@@ -281,14 +304,40 @@
                                             <spam>Cuenta</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtCuenta" type="text">
+                                            <input class="form-control" name="txtCuenta" type="text" required>
+                                            <div class="invalid-feedback">
+                                            Por favor, ingrese su cuenta.
+                                            </div>
                                         </div>
                                     </div> 
                                 </div>
-                                <input type="submit" class="btn btn-primary btn-block" value="Comprar">
+                                <input type="submit" id="btn_pagar" class="btn btn-primary btn-block" value="Comprar">
                             </div>
                         </div>
                     </form>
+                                    <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                      'use strict';
+                                      window.addEventListener('load', function() {
+                                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                        var forms = document.getElementsByClassName('needs-validation');
+                                        // Loop over them and prevent submission
+                                        var validation = Array.prototype.filter.call(forms, function(form) {
+                                          form.addEventListener('submit', function(event) {
+                                            if (form.checkValidity() === false) {
+                                              event.preventDefault();
+                                              event.stopPropagation();
+                                              
+                                            }
+                                            form.classList.add('was-validated');
+                                            
+                                          }, false);
+                                        });
+                                      }, false);
+                                      
+                                    })();
+                                    </script>
                 </div>
             </div>
         </section>

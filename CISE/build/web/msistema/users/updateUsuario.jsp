@@ -41,24 +41,33 @@
                                 <div class="card-header">
                                     <h5><i class="fab fa-product-hunt"></i>&nbsp;&nbsp;Agregar Usuarios</h5>
                                 </div>
-                                <form class="card-body bg-white" action="<%=request.getContextPath()%>/conusuario.do" method="post" autocomplete="off">
+                                <form class="card-body bg-white needs-validation" action="<%=request.getContextPath()%>/conusuario.do" method="post" autocomplete="off" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Nombre Usuario</label>
-                                                <input class="form-control" type="text" name="txtNombre" value="<%=usuariodto.getNombre()%>">
+                                                <input class="form-control" type="text" name="txtNombre" value="<%=usuariodto.getNombre()%>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese su nombre de usuario.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Correo</label>
-                                                <input class="form-control" type="email" name="txtCorreo" value="<%=usuariodto.getCorreo()%>">
+                                                <input class="form-control" type="email" name="txtCorreo" value="<%=usuariodto.getCorreo()%>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese su email.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Contraseña</label>
-                                                <input class="form-control" type="password" name="txtPass" value="<%=usuariodto.getClave()%>">
+                                                <input class="form-control" type="password" name="txtPass" value="<%=usuariodto.getClave()%>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese su contraseña.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -99,6 +108,9 @@
                                                 <% } %>
                                                 
 
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione su perfil.
+                                                </div>
                                             </div>
                                         </div>
                                                 <input type="hidden" name="id" value="<%=id%>">                             
@@ -117,6 +129,27 @@
                                         </div>
                                     </div>
                                 </form>
+                                    <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                      'use strict';
+                                      window.addEventListener('load', function() {
+                                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                        var forms = document.getElementsByClassName('needs-validation');
+                                        // Loop over them and prevent submission
+                                        var validation = Array.prototype.filter.call(forms, function(form) {
+                                          form.addEventListener('submit', function(event) {
+                                            if (form.checkValidity() === false) {
+                                              event.preventDefault();
+                                              event.stopPropagation();
+                                            }
+                                            form.classList.add('was-validated');
+                                          }, false);
+                                        });
+                                      }, false);
+                                    })();
+                                    </script>
+                                    
                             </div>
                         </div>
                     </div>

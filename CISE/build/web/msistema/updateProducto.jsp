@@ -1,7 +1,7 @@
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : Calidad de software
 --%>
 
 <%@page import="soft.cise.modeloDao.metProduc"%>
@@ -37,22 +37,28 @@
                         <div class="col-md-12">
                             <div class="card cardespa">     
                                 <div class="card-header">
-                                    <h5><i class="fab fa-product-hunt"></i>&nbsp;&nbsp;Agregar Productos</h5>
+                                    <h5><i class="fab fa-product-hunt"></i>&nbsp;&nbsp;Actualizar Producto</h5>
                                 </div>
-                                <form class="card-body bg-white" action="<%=request.getContextPath()%>/comproducto.do" method="post" enctype="multipart/form-data" autocomplete="off">
+                                <form class="card-body bg-white needs-validation" action="<%=request.getContextPath()%>/comproducto.do" method="post" enctype="multipart/form-data" autocomplete="off" novalidate>
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label>Nombre Producto</label>
-                                                <input class="form-control" type="text" name="txtProducto" value="<%=productodto.getNombProducto() %>">
+                                                <input class="form-control" type="text" name="txtProducto" value="<%=productodto.getNombProducto() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese su nombre de producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Cantidad</label>
-                                                <input class="form-control" type="text" name="txtCantidad" value="<%=productodto.getCantidad() %>">
+                                                <input class="form-control" type="text" name="txtCantidad" value="<%=productodto.getCantidad() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingresela cantidad de prodducto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Moneda</label>
-                                                <select class="form-control" name="txtMoneda">
+                                                <select class="form-control" name="txtMoneda" required>
                                                     <%  String moneda = productodto.getMoneda();
                                                         String moneda2 = "";
                                                         int idMoneda = 0;
@@ -70,51 +76,77 @@
                                                     <option value="<%=productodto.getMoneda()%>"><%=moneda%></option>
                                                     <option value="<%=idMoneda%>"><%=moneda2%></option>   
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione la moneda de compra.
+                                                </div>
 
                                             </div>
                                             <div class="form-group">
                                                 <label>Precio Compra</label>
-                                                <input class="form-control" type="text" name="txtPrecioCompra" value="<%=productodto.getPrecioCompra() %>">
+                                                <input class="form-control" type="text" name="txtPrecioCompra" value="<%=productodto.getPrecioCompra() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el precio de compra.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Tipo de Cambio</label>
-                                                <input class="form-control" type="text" name="txtTipoCambio" value="<%=productodto.getTipoCambio() %>">
+                                                <input class="form-control" type="text" name="txtTipoCambio" value="<%=productodto.getTipoCambio() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el tipo de cambio.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Precio Venta del Prroducto</label>
-                                                <input class="form-control" type="text" name="txtPrecioVenta" value="<%=productodto.getPrecioVenta() %>">
+                                                <input class="form-control" type="text" name="txtPrecioVenta" value="<%=productodto.getPrecioVenta() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el precio de venta del producto.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>IGV</label>
-                                                <input class="form-control" type="text" name="txtIGV" value="<%=productodto.getIGV() %>">                                         
+                                                <input class="form-control" type="hidden" name="txtIGV" value="<%=productodto.getIGV() %>" readonly="readonly" required>                                         
                                             </div>
                                             <div class="form-group">
                                                 <label>Nombre Proveedor</label>
-                                                <input class="form-control" type="text" name="txtProveedor" value="<%=productodto.getProveedor() %>">                                         
+                                                <input class="form-control" type="text" name="txtProveedor" value="<%=productodto.getProveedor() %>" required>    
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el nombre del proveedor.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 1</label>
-                                                <input class="form-control" type="text" name="txtTalla1" value="<%=productodto.getTalla1() %>">
+                                                <input class="form-control" type="text" name="txtTalla1" value="<%=productodto.getTalla1() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 1.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 2</label>
-                                                <input class="form-control" type="text" name="txtTalla2" value="<%=productodto.getTalla2() %>">
+                                                <input class="form-control" type="text" name="txtTalla2" value="<%=productodto.getTalla2() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 2.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 3</label>
-                                                <input class="form-control" type="text" name="txtTalla3" value="<%=productodto.getTalla3() %>">
+                                                <input class="form-control" type="text" name="txtTalla3" value="<%=productodto.getTalla3() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 3.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 4</label>
-                                                <input class="form-control" type="text" name="txtTalla4" value="<%=productodto.getTalla4() %>">
+                                                <input class="form-control" type="text" name="txtTalla4" value="<%=productodto.getTalla4() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la talla 4.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>Categoria :><%=productodto.getCategoria() %></label>
-                                                <select class="form-control" name="txtCategoria">
+                                                <label>Categoria :<%=productodto.getCategoria() %></label>
+                                                <select class="form-control" name="txtCategoria" required>
                                                     <%
                                                         metProduc metPro = new soft.cise.modeloDao.metProduc();
                                                         List<productoDTO> lis2 = metPro.listarCateg();
@@ -129,20 +161,32 @@
                                                     <option value="<%=con2%>"><%=productoCategoria.getCategoria()%></option>
                                                     <% }%>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione la categoria del producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Modelo</label>
-                                                <input class="form-control" type="text" name="txtModelo" value="<%=productodto.getMarca() %>">
+                                                <input class="form-control" type="text" name="txtModelo" value="<%=productodto.getMarca() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese el modelo del produto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleFormControlTextarea1" >Descripcion</label>
-                                                <textarea class="form-control" name="txtDescripcion" ><%=productodto.getDescripcion() %></textarea>
+                                                <textarea class="form-control" name="txtDescripcion"  required><%=productodto.getDescripcion() %></textarea>
+                                                <div class="invalid-feedback">
+                                                    Por favor, ingrese la descripcion del producto.
+                                                </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Imagen de la bd</label><br>
                                                 <img src="comcatalogo.do?txtAccion=imagen&id=<%=id%>" style="height: 80px; width: 80px;"><br>
                                                 <label>Actualizar Imagen</label>
-                                                <input type="file" class="form-control-file" name="txtImgProducto">
+                                                <input type="file" class="form-control-file" name="txtImgProducto" value="<%=productodto.getImg() %>" required>
+                                                <div class="invalid-feedback">
+                                                    Por favor, seleccione una imagen.
+                                                </div>
                                             </div>
                                             <input type="hidden" name="id" value="<%=id%>">
                                         </div>
@@ -160,6 +204,27 @@
                                         </div>
                                     </div>
                                 </form>
+                                    <script>
+                                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                                    (function() {
+                                      'use strict';
+                                      window.addEventListener('load', function() {
+                                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                        var forms = document.getElementsByClassName('needs-validation');
+                                        // Loop over them and prevent submission
+                                        var validation = Array.prototype.filter.call(forms, function(form) {
+                                          form.addEventListener('submit', function(event) {
+                                            if (form.checkValidity() === false) {
+                                              event.preventDefault();
+                                              event.stopPropagation();
+                                            }
+                                            form.classList.add('was-validated');
+                                          }, false);
+                                        });
+                                      }, false);
+                                    })();
+                                    </script>
+                                        
                             </div>
                         </div>
                     </div>

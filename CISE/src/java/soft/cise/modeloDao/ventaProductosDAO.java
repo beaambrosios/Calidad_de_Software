@@ -216,7 +216,10 @@ public class ventaProductosDAO implements OperacionesDB<compraDTO> {
             rs = cts.executeQuery();
             while (rs.next()) {
                 compradto = new compraDTO(rs.getString("nombreCompleto"),
+                        rs.getString("dni"),
+                        rs.getString("telefono1"),
                         rs.getString("direccion"),
+                        rs.getDouble("totalProductos"),
                         rs.getDouble("costo"),
                         rs.getDouble("IGV"),
                         rs.getDouble("totalVenta"),

@@ -83,6 +83,25 @@ public class compraDTO {
         this.fechaEntrega = fechaEntrega;
     }
 
+    public compraDTO(String nombreCompleto, String dni, String telefono1, String direccion, double totalProducto, double costoEnvio, double IGV, double totalPagar, String cuenta, String fechaVenta, String estado, String destino, int idVenta, String fechaEntrega) {
+        this.nombreCompleto = nombreCompleto;
+        this.dni = dni;
+        this.telefono1 = telefono1;
+        this.direccion = direccion;
+        this.totalProducto = totalProducto;
+        this.costoEnvio = costoEnvio;
+        this.IGV = IGV;
+        this.totalPagar = totalPagar;
+        this.cuenta = cuenta;
+        this.fechaVenta = fechaVenta;
+        this.estado = estado;
+        this.destino = destino;
+        this.idVenta = idVenta;
+        this.fechaEntrega = fechaEntrega;
+    }
+    
+    
+
     public int getId1() {
         return id1;
     }
