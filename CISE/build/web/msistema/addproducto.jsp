@@ -206,8 +206,8 @@
                                             <th scope="col">#</th>
                                             <th scope="col">Nombre</th>
                                             <th scope="col">Categoria</th>
-                                            <th scope="col">Marca</th>
                                             <th scope="col">Cantidad</th>
+                                            <th scope="col">Marca</th>
                                             <th scope="col">Total Compra</th>
                                             <th scope="col">Opciones</th>
                                         </tr>

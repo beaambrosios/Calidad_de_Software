@@ -160,7 +160,7 @@ public class comCatalogo extends HttpServlet {
                         ventaProducto.sql_insert(compradto);
                         sessionOK.removeAttribute("carrito");
 
-                        request.getRequestDispatcher("confirmado.jsp").forward(request, response);
+                        request.getRequestDispatcher("index.jsp").forward(request, response);
                     }
                     break;
                     case "detalleVentaProducto":

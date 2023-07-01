@@ -6,12 +6,13 @@
 package soft.cise.modeloDTO;
 
 import java.io.InputStream;
+import java.io.Serializable;
 
 /**
  *
  * @author SISTEMA
  */
-public class productoDTO {
+public class productoDTO implements Serializable{
 
     private int idProducto;
     private String categoria;

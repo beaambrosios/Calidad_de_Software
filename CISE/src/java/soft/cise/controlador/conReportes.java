@@ -13,8 +13,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import soft.cise.modeloDTO.reporteDTO;
+import soft.cise.modeloDTO.reporteVentaDTO;
 import soft.cise.modeloDTO.reporteVentasDTO;
 import soft.cise.modeloDao.reporteDAO;
+import soft.cise.modeloDao.reporteVentaDAO;
 import soft.cise.modeloDao.reporteVentasDAO;
 
 /**
@@ -71,6 +73,24 @@ public class conReportes extends HttpServlet {
                     request.setAttribute("sumacompra",sumacompra);
                     request.getSession().setAttribute("reporteVentas", reporteVentas);
                     request.getRequestDispatcher("msistema/reportes/reporteVentas.jsp").forward(request, response);
+                    break;
+                    /*----*/
+                    case "reporteVenta":                   
+                    reporteVentaDAO reporteventadto = new reporteVentaDAO();
+                    ArrayList<reporteVentaDTO>reporteVenta = reporteventadto.sql_selectAll();
+                     double venta=0;
+                     double ventaSu=0;
+                     double compraS=0;
+                    for (reporteVentaDTO reporte : reporteVenta) {
+                        venta += reporte.getPrecioVenta()+ reporte.getPrecioCompra();
+                        ventaSu+=reporte.getTotalVenta();
+                        compraS+=reporte.getTotalCompra();
+                    }
+                    request.setAttribute("venta", venta);
+                    request.setAttribute("sumaventa",ventaSu);
+                    request.setAttribute("compraS",compraS);
+                    request.getSession().setAttribute("reporteVenta", reporteVenta);
+                    request.getRequestDispatcher("msistema/reportes/reporteVenta.jsp").forward(request, response);
                     break;
             }
 
