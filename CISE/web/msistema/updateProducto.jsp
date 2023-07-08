@@ -1,7 +1,7 @@
 <%-- 
     Document   : administrador
     Created on : 2023
-    Author     : Calidad de software
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page import="soft.cise.modeloDao.metProduc"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : productoDescripcion
-    Created on : 08-jun-2019, 22:32:03
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page import="java.util.Iterator"%>
@@ -16,6 +16,8 @@
         <%@include file="../WEB-INF/jspfTienda/cStylos.jspf" %>
         <link href="resource/css/allproduct.css" rel="stylesheet" type="text/css"/>
         <title>ChiniMini Importaciones</title>
+        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
+
     </head>
     <body>
         <%@include file="../WEB-INF/jspfTienda/nav.jspf" %>
@@ -68,7 +70,7 @@
                                         <input type="hidden" name="id" value="<%=id %>">
                                         <label>Cantidad: </label><input style="height: 30px;width: 50px;" type="text" id="txtCantidad" name="txtCantidad" value="1" autocomplete="off">
                                         <input type="submit" class="btn btn-warning" name="txtAccion" value="Agregar CArrito">
-                                        <label>Disponibilidad:Stock =<%=produc.getCantidad()%></label><br>
+                                        <label>Disponibilidad:Stock =<%=produc.getStock()%></label><br>
                                         <label>Condicion:nuevo</label><br>
                                         <label>Marca: <%=produc.getMarca()%></label>
                                     </div>

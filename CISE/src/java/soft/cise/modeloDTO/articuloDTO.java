@@ -5,11 +5,13 @@
  */
 package soft.cise.modeloDTO;
 
+import java.io.Serializable;
+
 /**
  *
  * @author SISTEMA
  */
-public class articuloDTO {
+public class articuloDTO implements Serializable{
     private int idProducto;
     private int cantidad;
 

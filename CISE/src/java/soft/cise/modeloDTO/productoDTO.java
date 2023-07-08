@@ -35,6 +35,7 @@ public class productoDTO implements Serializable{
     private InputStream img;
     private int idVenta;
     private double totalProducto;
+    private int stock;
 
     public productoDTO() {
     }
@@ -43,7 +44,7 @@ public class productoDTO implements Serializable{
         this.categoria = categoria;
     }
 
-    public productoDTO(int idProducto, String categoria, String nombProducto, int cantidad, String moneda, double precioCompra, double tipoCambio, double precioVenta, double IGV, String proveedor, String talla1, String talla2, String talla3, String talla4, String marca, String descripcion) {
+    public productoDTO(int idProducto, String categoria, String nombProducto, int cantidad, String moneda, double precioCompra, double tipoCambio, double precioVenta, double IGV, String proveedor, String talla1, String talla2, String talla3, String talla4, String marca, String descripcion, int stock) {
         this.idProducto = idProducto;
         this.categoria = categoria;
         this.nombProducto = nombProducto;
@@ -60,6 +61,7 @@ public class productoDTO implements Serializable{
         this.talla4 = talla4;
         this.marca = marca;
         this.descripcion = descripcion;
+        this.stock = stock;
     }
 
     public productoDTO(int idProducto, String categoria, String nombProducto, int cantidad, double precioCompra, double precioVenta, String marca, String descripcion) {
@@ -81,6 +83,14 @@ public class productoDTO implements Serializable{
         this.descripcion = descripcion;
         this.idVenta = idVenta;
         this.totalProducto = totalProducto;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
     
     public int getIdProducto() {

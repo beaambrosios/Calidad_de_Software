@@ -72,8 +72,12 @@
                                         <td><%=usuariodto.getPerfil()%></td>
                                         <td><%=usuariodto.getEstado()%></td>
                                         <td align="center">
-                                            <a class="btn btn-warning btn-sm" href="<%=request.getContextPath()%>/conusuario.do?txtAccion=updateUsuario&id=<%=usuariodto.getId()%>"><i class="far fa-edit"></i></a>
-                                            <a class="btn btn-danger btn-sm" href="<%=request.getContextPath()%>/conusuario.do?txtAccion=delete2&id=<%=usuariodto.getId()%>"><i class="far fa-trash-alt"></i></a>
+                                            <input type="hidden" id="codigo" value="<%=usuariodto.getId()%>">
+                                            <a class="btn btn-warning btn-sm" href="<%=request.getContextPath()%>/conusuario.do?txtAccion=updateUsuario&id=<%=usuariodto.getId()%>"><i class="far fa-edit"></i></a> 
+                                            <a id="deleteUsuario"  href="<%=request.getContextPath()%>/conusuario.do?txtAccion=delete2&id=<%=usuariodto.getId()%>">
+                                                <button type="button" class="btn btn-danger btn-sm" data-toogle="tooltip" title="Eliminar" data-original-title="Eliminar">
+                                                <i class="far fa-trash-alt"></i></button>
+                                            </a>
                                         </td>
                                     </tr>
                                     <% }%>

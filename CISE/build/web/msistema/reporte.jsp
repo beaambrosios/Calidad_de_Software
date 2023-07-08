@@ -1,7 +1,7 @@
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 <%@page session="true" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -27,7 +27,7 @@
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card cardespa">
                                 <div class="card-body">
-                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProducto&txtMes=0"><i class="far fa-file-alt"></i></a>
+                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteProductop&txtMes=0"><i class="far fa-file-alt"></i></a>
                                     <h5 class="text1">Reporte Productos </h5>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card cardespa">
                                 <div class="card-body">
-                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteVentas"><i class="far fa-file-alt"></i></a>
+                                    <a class="iconoCar" href="<%=request.getContextPath()%>/conreportes.do?txtAccion=reporteGanancia&txtMes=0"><i class="far fa-file-alt"></i></a>
                                     <h5 class="text1">Reporte de Ganancias</h5>
                                 </div>
                             </div>

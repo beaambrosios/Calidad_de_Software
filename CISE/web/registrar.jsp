@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
-    Created on : 2023
-    Author     : Calidad de Software
+   Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -6,18 +6,17 @@
 package soft.cise.controlador;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import soft.cise.modeloDTO.reporteDTO;
+import soft.cise.modeloDTO.reporteGananciaDTO;
+import soft.cise.modeloDTO.reporteProductoDTO;
 import soft.cise.modeloDTO.reporteVentaDTO;
-import soft.cise.modeloDTO.reporteVentasDTO;
-import soft.cise.modeloDao.reporteDAO;
+import soft.cise.modeloDao.reporteGananciaDAO;
+import soft.cise.modeloDao.reporteProductoDAO;
 import soft.cise.modeloDao.reporteVentaDAO;
-import soft.cise.modeloDao.reporteVentasDAO;
 
 /**
  *
@@ -43,36 +42,37 @@ public class conReportes extends HttpServlet {
                 case "reportes":
                     request.getRequestDispatcher("msistema/reporte.jsp").forward(request, response);
                     break;
-                case "reporteProducto":
-                    int mes = Integer.parseInt(request.getParameter("txtMes"));
-                    reporteDAO reportedao = new reporteDAO();
-                    ArrayList<reporteDTO> reporteProducto = reportedao.reporteProducto(mes);
+                
+                case "reporteProductop":
+                    int mesp = Integer.parseInt(request.getParameter("txtMes"));
+                    reporteProductoDAO reporteProductodao = new reporteProductoDAO();
+                    ArrayList<reporteProductoDTO> reporteProductop = reporteProductodao.reporteProductop(mesp);
                     double total = 0;
-                    for (reporteDTO reporte : reporteProducto) {
+                    for (reporteProductoDTO reporte : reporteProductop) {
                         total += reporte.getCantidad() * reporte.getPrecioCompra();
 
                     }
                     request.setAttribute("totalMes", total);
-                    request.getSession().setAttribute("reporteProducto", reporteProducto);
+                    request.getSession().setAttribute("reporteProductop", reporteProductop);
                     request.getRequestDispatcher("msistema/reportes/reporteProducto.jsp").forward(request, response);
                     break;
-                case "reporteVentas":
-                    //request.getRequestDispatcher(reporteVentas).forward(request, response);
-                    reporteVentasDAO reporteventasdto = new reporteVentasDAO();
-                    ArrayList<reporteVentasDTO>reporteVentas = reporteventasdto.sql_selectAll();
-                     double ganancia=0;
-                     double sumaventa=0;
-                     double sumacompra=0;
-                    for (reporteVentasDTO reporte : reporteVentas) {
-                        ganancia += reporte.getPrecioVenta()- reporte.getPrecioCompra();
-                        sumaventa+=reporte.getTotalVenta();
-                        sumacompra+=reporte.getTotalCompra();
+                case "reporteGanancia":
+                    int mesg = Integer.parseInt(request.getParameter("txtMes"));
+                    reporteGananciaDAO gananciadao = new reporteGananciaDAO();
+                    ArrayList<reporteGananciaDTO> reporteGanancia = gananciadao.reporteGanancia(mesg);
+                    double G=0;
+                    double sumaventa=0;
+                    double sumacompra=0;
+                    for (reporteGananciaDTO ganancia : reporteGanancia) {
+                        G += ganancia.getPrecioVenta()- ganancia.getPrecioCompra();
+                        sumaventa+=ganancia.getTotalVenta();
+                        sumacompra+=ganancia.getTotalCompra();
                     }
-                    request.setAttribute("ganancia", ganancia);
+                    request.setAttribute("G", G);
                     request.setAttribute("sumaventa",sumaventa);
                     request.setAttribute("sumacompra",sumacompra);
-                    request.getSession().setAttribute("reporteVentas", reporteVentas);
-                    request.getRequestDispatcher("msistema/reportes/reporteVentas.jsp").forward(request, response);
+                    request.getSession().setAttribute("reporteGanancia", reporteGanancia);
+                    request.getRequestDispatcher("msistema/reportes/reporteGanancia.jsp").forward(request, response);
                     break;
                     /*----*/
                     case "reporteVenta":                   

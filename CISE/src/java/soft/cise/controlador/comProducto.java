@@ -16,7 +16,8 @@ import soft.cise.modeloDao.ventaProductosDAO;
 
 /**
  *
- * @author Lunarejo Aponte Luis
+ * Created on : 2023
+    Author     : GRUPO CALIDAD 4
  */
 @MultipartConfig
 public class comProducto extends HttpServlet {

@@ -113,7 +113,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                                <input type="hidden" name="id" value="<%=id%>">                             
+                                                <input type="hidden" id="codigo" name="id" value="<%=id%>">                             
                                     </div>
                                     
                                     <div class="row">

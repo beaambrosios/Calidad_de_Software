@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
     Created on : 2023
-    Author     : Calidad de Software
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -15,6 +15,8 @@
         <!--Google fonts-->
 
         <title>JSP Page</title>
+        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
+
     </head>
     <body>
         <%@include file="WEB-INF/jspfTienda/nav.jspf" %>
@@ -57,6 +59,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <% if (request.getAttribute("error") != null) { %>
+                                                    <div class="error-message">
+                                                        <%= request.getAttribute("error") %>
+                                                    </div>
+                                                <% } %>
                                                 <div class="col-md-12 mb-3">
                                                     <input type="submit" name="txtAccion" value="Ingresar" class="btn btn-primary btn-block">
                                                 </div>

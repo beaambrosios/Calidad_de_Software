@@ -2,7 +2,7 @@
 <%-- 
     Document   : login
     Created on : 2023
-    Author     : Calidad de Software
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page import="soft.cise.modeloDTO.compraDTO"%>

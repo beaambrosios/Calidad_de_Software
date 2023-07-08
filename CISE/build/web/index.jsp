@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 2023
-    Author     : Calidad de Software
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page import="soft.cise.modeloDao.metProduc"%>
@@ -19,6 +19,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <%@include file="WEB-INF/jspfTienda/cStylos.jspf" %>
         <title>ChiniMini Importaciones</title>
+        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
     </head>
     <body>
         <%@include file="WEB-INF/jspfTienda/nav.jspf" %>

@@ -510,3 +510,728 @@
 01-Jul-2023 13:06:10.310 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
 01-Jul-2023 13:06:10.321 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 01-Jul-2023 13:06:10.331 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+01-Jul-2023 13:13:50.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+01-Jul-2023 13:13:50.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+01-Jul-2023 13:13:50.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+01-Jul-2023 13:13:50.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+01-Jul-2023 13:13:50.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+01-Jul-2023 13:13:50.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+01-Jul-2023 13:13:50.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+01-Jul-2023 13:13:50.064 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+01-Jul-2023 13:13:50.101 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+01-Jul-2023 13:13:50.116 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 422 ms
+01-Jul-2023 13:13:50.154 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+01-Jul-2023 13:13:50.154 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+01-Jul-2023 13:13:50.160 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+01-Jul-2023 13:13:50.182 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+01-Jul-2023 13:13:50.667 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 13:13:50.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [571] ms
+01-Jul-2023 13:13:50.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+01-Jul-2023 13:13:50.755 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [22] ms
+01-Jul-2023 13:13:50.755 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+01-Jul-2023 13:13:50.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [243] ms
+01-Jul-2023 13:13:50.999 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+01-Jul-2023 13:13:51.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [31] ms
+01-Jul-2023 13:13:51.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+01-Jul-2023 13:13:51.061 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [30] ms
+01-Jul-2023 13:13:51.061 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+01-Jul-2023 13:13:51.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [26] ms
+01-Jul-2023 13:13:51.089 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Jul-2023 13:13:51.123 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1006 ms
+01-Jul-2023 13:29:20.290 SEVERE [http-nio-8080-exec-5] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		... 13 more
+01-Jul-2023 13:29:20.293 SEVERE [http-nio-8080-exec-5] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		... 13 more
+01-Jul-2023 13:29:20.293 SEVERE [http-nio-8080-exec-5] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000015.tmp
+		... 14 more
+01-Jul-2023 13:31:09.360 SEVERE [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		... 13 more
+01-Jul-2023 13:31:09.360 SEVERE [http-nio-8080-exec-10] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		... 13 more
+01-Jul-2023 13:31:09.361 SEVERE [http-nio-8080-exec-10] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000032.tmp
+		... 14 more
+01-Jul-2023 13:36:39.095 SEVERE [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		... 13 more
+01-Jul-2023 13:36:39.096 SEVERE [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		... 13 more
+01-Jul-2023 13:36:39.097 SEVERE [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000049.tmp
+		... 14 more
+01-Jul-2023 13:40:48.674 SEVERE [http-nio-8080-exec-8] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		... 13 more
+01-Jul-2023 13:40:48.675 SEVERE [http-nio-8080-exec-8] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		... 13 more
+01-Jul-2023 13:40:48.677 SEVERE [http-nio-8080-exec-8] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000066.tmp
+		... 14 more
+01-Jul-2023 13:44:14.250 SEVERE [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		... 13 more
+01-Jul-2023 13:44:14.250 SEVERE [http-nio-8080-exec-10] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		... 13 more
+01-Jul-2023 13:44:14.251 SEVERE [http-nio-8080-exec-10] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000083.tmp
+		... 14 more
+01-Jul-2023 13:47:54.837 SEVERE [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		... 13 more
+01-Jul-2023 13:47:54.837 SEVERE [http-nio-8080-exec-10] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		... 13 more
+01-Jul-2023 13:47:54.838 SEVERE [http-nio-8080-exec-10] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000100.tmp
+		... 14 more
+01-Jul-2023 13:50:00.443 SEVERE [http-nio-8080-exec-7] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		... 13 more
+01-Jul-2023 13:50:00.444 SEVERE [http-nio-8080-exec-7] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		... 13 more
+01-Jul-2023 13:50:00.444 SEVERE [http-nio-8080-exec-7] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000117.tmp
+		... 14 more
+01-Jul-2023 13:51:24.586 SEVERE [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		... 13 more
+01-Jul-2023 13:51:24.587 SEVERE [http-nio-8080-exec-1] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		... 13 more
+01-Jul-2023 13:51:24.588 SEVERE [http-nio-8080-exec-1] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000134.tmp
+		... 14 more
+01-Jul-2023 13:52:50.939 SEVERE [http-nio-8080-exec-6] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		... 13 more
+01-Jul-2023 13:52:50.940 SEVERE [http-nio-8080-exec-6] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		... 13 more
+01-Jul-2023 13:52:50.940 SEVERE [http-nio-8080-exec-6] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000151.tmp
+		... 14 more
+01-Jul-2023 13:52:53.132 SEVERE [http-nio-8080-exec-10] com.microsoft.sqlserver.jdbc.TDSReader.throwInvalidTDS ConnectionID:44 ClientConnectionId: 9579bc62-a543-4c21-ad68-862343665262 got unexpected value in TDS response at offset:5162
+01-Jul-2023 13:52:53.132 SEVERE [http-nio-8080-exec-3] com.microsoft.sqlserver.jdbc.TDSReader.throwInvalidTDS ConnectionID:44 ClientConnectionId: 9579bc62-a543-4c21-ad68-862343665262 got unexpected value in TDS response at offset:5162
+01-Jul-2023 13:57:18.045 SEVERE [http-nio-8080-exec-3] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		... 13 more
+01-Jul-2023 13:57:18.046 SEVERE [http-nio-8080-exec-3] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		... 13 more
+01-Jul-2023 13:57:18.046 SEVERE [http-nio-8080-exec-3] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000169.tmp
+		... 14 more
+01-Jul-2023 14:00:30.875 SEVERE [http-nio-8080-exec-4] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		... 13 more
+01-Jul-2023 14:00:30.876 SEVERE [http-nio-8080-exec-4] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		... 13 more
+01-Jul-2023 14:00:30.876 SEVERE [http-nio-8080-exec-4] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000186.tmp
+		... 14 more
+01-Jul-2023 14:01:41.281 SEVERE [http-nio-8080-exec-7] org.apache.coyote.http11.Http11Processor.service Error procesando requerimiento
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		... 13 more
+01-Jul-2023 14:01:41.282 SEVERE [http-nio-8080-exec-7] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Error leyendo requerimiento, ignorado
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:647)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:932)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		... 13 more
+01-Jul-2023 14:01:41.283 SEVERE [http-nio-8080-exec-7] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun Error running socket processor
+	java.lang.IllegalStateException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+		at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+		at org.apache.catalina.connector.Request.recycle(Request.java:467)
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+		at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+		at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1609)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1123)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1084)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.io.IOException: Cannot delete D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\work\Catalina\localhost\CISE\upload_d98fd66a_f668_47aa_a2f3_e5db460a7324_00000203.tmp
+		... 14 more
+01-Jul-2023 14:09:08.691 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:09:08.704 WARNING [http-nio-8080-exec-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+01-Jul-2023 14:09:08.997 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:09:09.011 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:09:23.432 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:09:23.652 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:09:23.667 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:12:25.100 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:12:25.310 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:12:25.321 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:12:33.924 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:12:34.132 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:12:34.141 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:13:10.834 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:13:11.055 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:13:11.064 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:13:11.390 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:13:11.575 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:13:11.584 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:13:28.967 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:13:29.179 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:13:29.188 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:13:29.509 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:13:29.694 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:13:29.702 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 14:19:42.402 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 14:19:42.411 WARNING [http-nio-8080-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+01-Jul-2023 14:19:42.608 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 14:19:42.624 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 15:55:06.160 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 15:55:06.161 WARNING [http-nio-8080-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+01-Jul-2023 15:55:06.507 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 15:55:06.514 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 15:55:17.427 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 15:55:17.622 INFO [http-nio-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 15:55:17.628 INFO [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 15:55:26.587 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 15:55:26.785 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 15:55:26.790 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 15:57:03.538 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+01-Jul-2023 15:57:03.729 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+01-Jul-2023 15:57:03.738 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+01-Jul-2023 17:59:03.787 SEVERE [http-nio-8080-exec-45] com.microsoft.sqlserver.jdbc.TDSReader.throwInvalidTDS ConnectionID:104 ClientConnectionId: fda86b5a-abfe-467d-955f-962cca14591d got unexpected value in TDS response at offset:37
+01-Jul-2023 17:59:03.788 SEVERE [http-nio-8080-exec-51] com.microsoft.sqlserver.jdbc.TDSReader.throwInvalidTDS ConnectionID:104 ClientConnectionId: fda86b5a-abfe-467d-955f-962cca14591d got unexpected value in TDS response at offset:37
+01-Jul-2023 19:37:26.486 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+01-Jul-2023 19:37:26.489 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Jul-2023 19:37:26.498 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+01-Jul-2023 19:37:26.525 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+01-Jul-2023 19:37:26.550 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Jul-2023 19:37:26.577 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

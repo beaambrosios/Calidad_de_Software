@@ -523,3 +523,5 @@
 01-Jul-2023 14:19:42.624 WARNING [http-nio-8080-exec-25] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute [productoPendiente] for session [C24CF07C2882495502031FD98C453244]
 01-Jul-2023 14:19:42.624 WARNING [http-nio-8080-exec-25] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute [reporteProducto] for session [C24CF07C2882495502031FD98C453244]
 01-Jul-2023 14:19:42.624 WARNING [http-nio-8080-exec-25] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute [reporteVentas] for session [C24CF07C2882495502031FD98C453244]
+01-Jul-2023 19:37:26.527 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Jul-2023 19:37:26.527 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

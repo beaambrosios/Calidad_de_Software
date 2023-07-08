@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Lunarejo Aponte Luis
- * @author SISTEMA
+ * Created on : 2023
+    Author     : GRUPO CALIDAD 4
  */
 public class ConexionBD {
 

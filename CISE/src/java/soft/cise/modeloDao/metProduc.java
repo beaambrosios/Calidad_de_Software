@@ -204,7 +204,8 @@ public class metProduc implements OperacionesDB<productoDTO> {
                         rs.getString(13),
                         rs.getString(14),
                         rs.getString(15),
-                        rs.getString(16));
+                        rs.getString(16),
+                        rs.getInt(17));
             }
         } catch (Exception e) {
             System.out.println("Error al seleccionar por la id" + e.getMessage());
@@ -238,7 +239,8 @@ public class metProduc implements OperacionesDB<productoDTO> {
                         rs.getString(13),
                         rs.getString(14),
                         rs.getString(15),
-                        rs.getString(16));
+                        rs.getString(16),
+                        rs.getInt(17));
                 lista.add(producto);
             }
 

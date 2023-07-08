@@ -1,8 +1,8 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 <%@page import="soft.cise.modeloDTO.compraDTO"%>
 <%@page import="soft.cise.modeloDao.ventaProductosDAO"%>
@@ -146,9 +146,8 @@
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <label>Total IGV</label>
                                         <div class="form-group">
-                                            <input class="form-control" placeholder="S/.<%=compradto.getIGV()%>" readonly="readonly">
+                                            <input type="hidden" class="form-control" placeholder="S/.<%=compradto.getIGV()%>" readonly="readonly">
                                         </div>
                                     </div>
                                     <div class="col-3">

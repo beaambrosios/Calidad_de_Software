@@ -1,7 +1,7 @@
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 
 <%@page import="soft.cise.modeloDao.metProduc"%>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="card-body">                
-                            <table class="table table-bordered table-hover">
+                            <table id="exampleProduc" class="table table-bordered table-hover">
                                 <thead class="table-primary" align="center">
                                     <tr>
                                         <th scope="col">#</th>
@@ -74,20 +74,32 @@
                                         <td>S/.<%=productodto.getPrecioCompra()%></td>
                                         <td>S/.<%=productodto.getPrecioVenta()%></td>
                                         <td align="center">
+                                            <input type="hidden" id="codigo" value="<%=productodto.getIdProducto()%>">
                                             <a class="btn btn-warning btn-sm" href="<%=request.getContextPath()%>/comproducto.do?txtAccion=updateProducto&id=<%=productodto.getIdProducto()%>"><i class="far fa-edit"></i></a>
-                                            <a class="btn btn-danger btn-sm" href="<%=request.getContextPath()%>/comproducto.do?txtAccion=delete2&id=<%=productodto.getIdProducto()%>"><i class="far fa-trash-alt"></i></a>
+                                            <a id="deleteProducto"  href="<%=request.getContextPath()%>/comproducto.do?txtAccion=delete2&id=<%=productodto.getIdProducto()%>">
+                                                <button type="button" class="btn btn-danger btn-sm" data-toogle="tooltip" title="Eliminar" data-original-title="Eliminar">
+                                                <i class="far fa-trash-alt"></i></button>
+                                            </a>
+
+                                            
                                         </td>
                                     </tr>
                                     <% }%>
                                 </tbody>
                             </table>
+                                <script>
+                                    $(document).ready(function(){
+                                        $('#exampleProduc').DataTable; 
+                                     });
+                                </script>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+                                
 
         <%@include file="../WEB-INF/jspfAdmin/cJavaScrip.jspf"%>
+
     </body>
 </html>

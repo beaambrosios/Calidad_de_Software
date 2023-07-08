@@ -17,7 +17,8 @@ import soft.cise.modeloDao.usuarioDAO;
 
 /**
  *
- * @author SISTEMA
+ * @Created on : 2023
+    Author     : GRUPO CALIDAD 4
  */
 public class conUsuario extends HttpServlet {
 
@@ -54,15 +55,16 @@ public class conUsuario extends HttpServlet {
                     usuarioDAO usuariodao = new usuarioDAO();
                     usuarioDTO usuario = usuariodao.login(usuariodto);
 
-                    if (correo.equalsIgnoreCase(usuario.getCorreo()) && clave.equalsIgnoreCase(usuario.getClave())) {
+                    if (!correo.equalsIgnoreCase(usuario.getCorreo()) || !clave.equalsIgnoreCase(usuario.getClave())) {
+                        request.setAttribute("error", "Contraseña incorrecta");
+                        acceso = index;
+                        request.getRequestDispatcher(acceso).forward(request, response);
+                    } else {
                         sessionOk.setAttribute("perfil", usuario.getPerfil());
                         sessionOk.setAttribute("nombre", usuario.getNombre());
                         sessionOk.setAttribute("estado", usuario.getEstado());
                         sessionOk.setAttribute("idUsuario", usuario.getId());
                         acceso = sistema;
-                        request.getRequestDispatcher(acceso).forward(request, response);
-                    } else {
-                        acceso = index;
                         request.getRequestDispatcher(acceso).forward(request, response);
                     }
                     break;

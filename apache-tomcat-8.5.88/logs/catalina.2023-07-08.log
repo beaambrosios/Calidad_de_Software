@@ -1,0 +1,645 @@
+08-Jul-2023 00:07:46.765 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:07:46.769 WARNING [http-nio-8080-exec-32] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 00:07:47.033 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:07:47.052 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:08:00.762 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:08:01.082 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:08:01.108 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:08:01.347 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:08:01.630 INFO [http-nio-8080-exec-39] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:08:01.639 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:08:57.018 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:08:57.289 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:08:57.297 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:09:13.308 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:09:13.600 INFO [http-nio-8080-exec-39] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:09:13.616 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:09:13.820 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:09:14.084 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:09:14.102 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:27:44.656 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 00:27:44.656 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:27:44.663 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 00:27:44.708 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 00:27:44.716 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:27:44.731 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:43:51.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 00:43:51.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 00:43:51.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 00:43:51.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 00:43:51.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 00:43:51.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 00:43:51.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 00:43:51.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 00:43:51.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 00:43:51.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 00:43:51.213 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 00:43:51.246 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 00:43:51.263 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 450 ms
+08-Jul-2023 00:43:51.298 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 00:43:51.298 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 00:43:51.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 00:43:51.328 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 00:43:51.860 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:43:51.919 SEVERE [localhost-startStop-1] org.apache.catalina.session.StandardManager.startInternal Excepción cargando sesiones desde almacenamiento persistente
+	java.io.InvalidClassException: java.io.ObjectStreamException; unable to create instance
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2273)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1768)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:543)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:501)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1630)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4967)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.InstantiationException
+		at java.base/java.io.ObjectStreamClass.newInstance(ObjectStreamClass.java:1180)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2270)
+		... 21 more
+	Caused by: java.lang.InstantiationError: java.io.ObjectStreamException
+		at java.base/jdk.internal.reflect.GeneratedSerializationConstructorAccessor9.newInstance(Unknown Source)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+		at java.base/java.io.ObjectStreamClass.newInstance(ObjectStreamClass.java:1148)
+		... 22 more
+08-Jul-2023 00:43:51.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [626] ms
+08-Jul-2023 00:43:51.933 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 00:43:51.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [27] ms
+08-Jul-2023 00:43:51.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 00:43:52.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [227] ms
+08-Jul-2023 00:43:52.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 00:43:52.213 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [25] ms
+08-Jul-2023 00:43:52.213 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 00:43:52.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [23] ms
+08-Jul-2023 00:43:52.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 00:43:52.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [16] ms
+08-Jul-2023 00:43:52.254 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:43:52.285 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1020 ms
+08-Jul-2023 00:43:54.226 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 00:43:54.505 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 00:43:54.515 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 00:47:33.178 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 00:47:33.178 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:47:33.184 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 00:47:33.193 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 00:47:33.202 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 00:47:33.212 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 11:57:53.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 11:57:53.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 11:57:53.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 11:57:53.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 11:57:53.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 11:57:53.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 11:57:53.451 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 11:57:53.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 11:57:53.558 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 11:57:53.578 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 756 ms
+08-Jul-2023 11:57:53.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 11:57:53.633 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 11:57:53.668 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 11:57:53.710 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 11:57:54.313 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 11:57:54.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [736] ms
+08-Jul-2023 11:57:54.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 11:57:54.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [95] ms
+08-Jul-2023 11:57:54.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 11:57:56.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [1.624] ms
+08-Jul-2023 11:57:56.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 11:57:56.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [48] ms
+08-Jul-2023 11:57:56.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 11:57:56.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [56] ms
+08-Jul-2023 11:57:56.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 11:57:56.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [33] ms
+08-Jul-2023 11:57:56.263 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 11:57:56.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2717 ms
+08-Jul-2023 12:03:45.413 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:03:45.414 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:03:45.419 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:03:45.438 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:03:45.447 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:03:45.461 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:03:57.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:03:57.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:03:57.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:03:57.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:03:57.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:03:57.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:03:58.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:03:58.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:03:58.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:03:58.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:03:58.041 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:03:58.060 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 455 ms
+08-Jul-2023 12:03:58.093 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:03:58.093 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:03:58.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:03:58.124 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:03:58.611 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:03:58.667 SEVERE [localhost-startStop-1] org.apache.catalina.session.StandardManager.startInternal Excepción cargando sesiones desde almacenamiento persistente
+	java.io.InvalidClassException: java.io.ObjectStreamException; unable to create instance
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2273)
+		at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1768)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:543)
+		at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:501)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1630)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1050)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:219)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4967)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:711)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:688)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.InstantiationException
+		at java.base/java.io.ObjectStreamClass.newInstance(ObjectStreamClass.java:1180)
+		at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2270)
+		... 21 more
+	Caused by: java.lang.InstantiationError: java.io.ObjectStreamException
+		at java.base/jdk.internal.reflect.GeneratedSerializationConstructorAccessor9.newInstance(Unknown Source)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+		at java.base/java.io.ObjectStreamClass.newInstance(ObjectStreamClass.java:1148)
+		... 22 more
+08-Jul-2023 12:03:58.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [584] ms
+08-Jul-2023 12:03:58.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:03:58.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [25] ms
+08-Jul-2023 12:03:58.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:03:58.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [230] ms
+08-Jul-2023 12:03:58.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:03:58.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [31] ms
+08-Jul-2023 12:03:58.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:03:58.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [24] ms
+08-Jul-2023 12:03:58.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:03:59.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [14] ms
+08-Jul-2023 12:03:59.010 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:03:59.038 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 976 ms
+08-Jul-2023 12:06:05.205 WARNING [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:06:05.717 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/CISE]
+08-Jul-2023 12:06:33.826 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:06:33.829 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:06:34.069 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:06:34.079 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [252] ms
+08-Jul-2023 12:06:34.082 INFO [http-nio-8080-exec-12] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CISE]] after start() had already been called. The second call will be ignored.
+08-Jul-2023 12:08:31.811 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:08:31.812 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:08:31.818 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:08:31.824 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:08:31.832 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:08:31.845 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:08:51.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:08:51.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:08:51.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:08:51.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:08:51.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:08:51.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:08:51.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:08:51.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:08:51.967 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:08:51.986 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 476 ms
+08-Jul-2023 12:08:52.027 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:08:52.027 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:08:52.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:08:52.059 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:08:52.562 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:08:52.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [594] ms
+08-Jul-2023 12:08:52.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:08:52.657 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [23] ms
+08-Jul-2023 12:08:52.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:08:52.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [211] ms
+08-Jul-2023 12:08:52.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:08:52.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [26] ms
+08-Jul-2023 12:08:52.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:08:52.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [24] ms
+08-Jul-2023 12:08:52.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:08:52.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [13] ms
+08-Jul-2023 12:08:52.933 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:08:52.961 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 973 ms
+08-Jul-2023 12:09:27.348 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/CISE]
+08-Jul-2023 12:09:27.373 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:09:27.373 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:09:27.629 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:09:27.639 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [266] ms
+08-Jul-2023 12:09:27.642 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CISE]] after start() had already been called. The second call will be ignored.
+08-Jul-2023 12:11:26.207 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:11:26.724 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/CISE]
+08-Jul-2023 12:11:26.747 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:11:26.747 WARNING [http-nio-8080-exec-19] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:11:26.993 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:11:27.002 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [254] ms
+08-Jul-2023 12:11:27.005 INFO [http-nio-8080-exec-20] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CISE]] after start() had already been called. The second call will be ignored.
+08-Jul-2023 12:14:41.433 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:14:41.937 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/CISE]
+08-Jul-2023 12:14:48.473 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:14:48.473 WARNING [http-nio-8080-exec-27] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:14:48.686 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:14:48.693 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [223] ms
+08-Jul-2023 12:14:48.696 INFO [http-nio-8080-exec-22] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CISE]] after start() had already been called. The second call will be ignored.
+08-Jul-2023 12:17:51.741 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:17:51.741 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:17:51.748 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:17:51.847 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:17:51.856 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:17:51.866 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:19:33.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:19:33.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:19:33.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:19:33.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:19:33.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:19:33.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:19:33.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:19:33.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:19:33.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:19:33.252 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:19:33.277 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 564 ms
+08-Jul-2023 12:19:33.334 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:19:33.335 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:19:33.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:19:33.387 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:19:34.187 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:19:34.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [915] ms
+08-Jul-2023 12:19:34.262 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:19:34.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [23] ms
+08-Jul-2023 12:19:34.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:19:34.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [213] ms
+08-Jul-2023 12:19:34.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:19:34.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [26] ms
+08-Jul-2023 12:19:34.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:19:34.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [34] ms
+08-Jul-2023 12:19:34.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:19:34.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [18] ms
+08-Jul-2023 12:19:34.580 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:19:34.608 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1329 ms
+08-Jul-2023 12:22:26.262 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:22:26.268 WARNING [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:22:26.532 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:22:26.549 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:22:51.803 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:22:52.019 INFO [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:22:52.030 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:23:09.691 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:23:09.903 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:23:09.913 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:25:33.272 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:25:33.466 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:25:33.474 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:26:59.427 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:26:59.428 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:26:59.434 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:26:59.440 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:26:59.446 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:26:59.462 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:02.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:02.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:27:02.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:27:02.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:27:02.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:27:02.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:02.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:02.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:27:02.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:27:02.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:27:02.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:27:02.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:27:02.940 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:27:02.953 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 444 ms
+08-Jul-2023 12:27:02.987 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:27:02.987 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:27:02.993 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:27:03.013 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:27:03.492 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:27:03.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [562] ms
+08-Jul-2023 12:27:03.556 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:27:03.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [22] ms
+08-Jul-2023 12:27:03.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:27:03.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [215] ms
+08-Jul-2023 12:27:03.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:27:03.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [25] ms
+08-Jul-2023 12:27:03.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:27:03.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [23] ms
+08-Jul-2023 12:27:03.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:27:03.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [8] ms
+08-Jul-2023 12:27:03.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:03.884 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 929 ms
+08-Jul-2023 12:27:46.197 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:27:46.197 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:46.203 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:27:46.215 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:27:46.221 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:46.230 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:49.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:27:49.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:27:49.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:49.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:49.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:27:49.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:27:49.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:27:49.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:27:49.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:27:49.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:27:49.619 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:27:49.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:27:49.659 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:27:49.677 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 452 ms
+08-Jul-2023 12:27:49.710 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:27:49.710 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:27:49.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:27:49.738 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:27:50.207 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:27:50.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [554] ms
+08-Jul-2023 12:27:50.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:27:50.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [23] ms
+08-Jul-2023 12:27:50.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:27:50.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [198] ms
+08-Jul-2023 12:27:50.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:27:50.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [25] ms
+08-Jul-2023 12:27:50.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:27:50.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [23] ms
+08-Jul-2023 12:27:50.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:27:50.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [14] ms
+08-Jul-2023 12:27:50.558 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:27:50.586 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 907 ms
+08-Jul-2023 12:30:30.842 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:30:30.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:30:30.849 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:30:30.874 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:30:30.881 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:30:44.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:30:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:30:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:30:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:30:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:30:44.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:30:44.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:30:44.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:30:44.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:30:44.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:30:44.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:30:44.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:30:44.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:30:44.366 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:30:44.366 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:30:44.366 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:30:44.369 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:30:44.402 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:30:44.417 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 368 ms
+08-Jul-2023 12:30:44.455 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:30:44.456 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:30:44.462 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:30:44.485 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:30:44.960 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:30:45.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [555] ms
+08-Jul-2023 12:30:45.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:30:45.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [20] ms
+08-Jul-2023 12:30:45.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:30:45.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [186] ms
+08-Jul-2023 12:30:45.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:30:45.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [28] ms
+08-Jul-2023 12:30:45.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:30:45.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [22] ms
+08-Jul-2023 12:30:45.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:30:45.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [17] ms
+08-Jul-2023 12:30:45.295 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:30:45.326 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 904 ms
+08-Jul-2023 12:32:18.694 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Jul-2023 12:32:18.694 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:32:18.703 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2023 12:32:18.717 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:32:18.725 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:32:18.732 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:32:21.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.88
+08-Jul-2023 12:32:21.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Apr 14 2023 20:16:27 UTC
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.88.0
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-18
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       18+36-2087
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Jul-2023 12:32:21.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\logging.properties
+08-Jul-2023 12:32:21.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:32:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88
+08-Jul-2023 12:32:22.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\temp
+08-Jul-2023 12:32:22.053 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.36] con la versión APR [1.7.2].
+08-Jul-2023 12:32:22.053 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+08-Jul-2023 12:32:22.053 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2023 12:32:22.055 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1t  7 Feb 2023]
+08-Jul-2023 12:32:22.093 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Jul-2023 12:32:22.112 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 454 ms
+08-Jul-2023 12:32:22.147 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2023 12:32:22.147 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.88]
+08-Jul-2023 12:32:22.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:32:22.176 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:32:22.687 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:32:22.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [613] ms
+08-Jul-2023 12:32:22.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] de la aplicación web
+08-Jul-2023 12:32:22.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\docs] has finished in [24] ms
+08-Jul-2023 12:32:22.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] de la aplicación web
+08-Jul-2023 12:32:23.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\examples] has finished in [210] ms
+08-Jul-2023 12:32:23.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] de la aplicación web
+08-Jul-2023 12:32:23.026 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\host-manager] has finished in [25] ms
+08-Jul-2023 12:32:23.026 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] de la aplicación web
+08-Jul-2023 12:32:23.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\manager] has finished in [23] ms
+08-Jul-2023 12:32:23.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] de la aplicación web
+08-Jul-2023 12:32:23.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\webapps\ROOT] has finished in [17] ms
+08-Jul-2023 12:32:23.070 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2023 12:32:23.100 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 986 ms
+08-Jul-2023 12:32:24.063 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/CISE]
+08-Jul-2023 12:32:24.083 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml]
+08-Jul-2023 12:32:24.086 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+08-Jul-2023 12:32:24.331 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:32:24.341 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Documentos\UCH\IX-CICLO-UCH\TRABAJO GRUPAL\CALIDAD DE SOFTWARE\apache-tomcat-8.5.88\conf\Catalina\localhost\CISE.xml] has finished in [258] ms
+08-Jul-2023 12:32:24.345 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CISE]] after start() had already been called. The second call will be ignored.
+08-Jul-2023 12:37:29.016 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:37:29.017 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [CISE] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+08-Jul-2023 12:37:29.252 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:37:29.267 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:37:44.159 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:37:44.377 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:37:44.389 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:37:54.977 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:37:55.175 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:37:55.185 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Jul-2023 12:38:43.258 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/CISE]
+08-Jul-2023 12:38:43.445 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2023 12:38:43.453 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto

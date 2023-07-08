@@ -1,8 +1,8 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%-- 
     Document   : administrador
-    Created on : 09-abr-2019, 14:47:36
-    Author     : SISTEMA
+    Created on : 2023
+    Author     : GRUPO CALIDAD 4
 --%>
 <%@page session="true" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
