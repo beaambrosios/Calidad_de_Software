@@ -38,13 +38,13 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtProducto" placeholder="Nombre Producto" required>
+                                                <input class="form-control" type="text" name="txtProducto" placeholder="Nombre Producto" pattern="^[a-zA-Z0-9\s]+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese su nombre de producto.
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtCantidad" placeholder="cantidad de productos" required>
+                                                <input class="form-control" type="text" name="txtCantidad" placeholder="cantidad de productos" pattern="^\d+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingresela cantidad de prodducto.
                                                 </div>
@@ -60,21 +60,21 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtPrecioCompra" placeholder="Precio Compra" required>
+                                                <input class="form-control" type="text" name="txtPrecioCompra" placeholder="Precio Compra" pattern="^\d+(\.\d{1,2})?$" required>
                                                 <div class="invalid-feedback">
-                                                    Por favor, ingrese el precio de compra.
+                                                    Por favor, ingrese el precio de compra válido (formato: 0.00).
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTipoCambio" placeholder="Tipo de Cambio" required>
+                                                <input class="form-control" type="text" name="txtTipoCambio" placeholder="Tipo de Cambio" pattern="^\d+(\.\d{1,2})?$" required>
                                                 <div class="invalid-feedback">
-                                                    Por favor, ingrese el tipo de cambio.
+                                                    Por favor, ingrese el tipo de cambio válido (formato: 0.00).
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtPrecioVenta" placeholder="Precio Venta del Producto" required>
+                                                <input class="form-control" type="text" name="txtPrecioVenta" placeholder="Precio Venta del Producto" pattern="^\d+(\.\d{1,2})?$" required>
                                                 <div class="invalid-feedback">
-                                                    Por favor, ingrese el precio de venta del producto.
+                                                    Por favor, ingrese el precio de venta del producto válido (formato: 0.00).
                                                 </div>
                                             </div>
                                         </div>
@@ -84,31 +84,31 @@
                             
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtProveedor" placeholder="Nombre Proveedor" required>
+                                                <input class="form-control" type="text" name="txtProveedor" placeholder="Nombre Proveedor" pattern="^[a-zA-Z\s]+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese el nombre del proveedor.
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla1" placeholder="Talla1" required>
+                                                <input class="form-control" type="text" name="txtTalla1" placeholder="Talla1" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 1.
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla2" placeholder="Talla2" required>
+                                                <input class="form-control" type="text" name="txtTalla2" placeholder="Talla2" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 2.
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla3" placeholder="Talla3" required>
+                                                <input class="form-control" type="text" name="txtTalla3" placeholder="Talla3" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 3.
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtTalla4" placeholder="Talla4" required>
+                                                <input class="form-control" type="text" name="txtTalla4" placeholder="Talla4" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 4.
                                                 </div>
@@ -137,14 +137,14 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <input class="form-control" type="text" name="txtModelo" placeholder="Modelo" required>
+                                                <input class="form-control" type="text" name="txtModelo" placeholder="Modelo" pattern="^[a-zA-Z0-9\s]+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese el modelo del produto.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleFormControlTextarea1" >Descripcion</label>
-                                                <textarea class="form-control" name="txtDescripcion" required ></textarea>
+                                                <textarea class="form-control" name="txtDescripcion" pattern="^[a-zA-Z0-9\s]+$" required ></textarea>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la descripcion del producto.
                                                 </div>
@@ -165,7 +165,7 @@
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
-                                                <input type="submit" name="txtAccion" id="chkAceptar" value="agregar" class="btn btn-info btn-block">
+                                                <input type="submit" name="txtAccion" value="agregar" class="btn btn-info btn-block">
                                             </div>
                                         </div>
                                     </div>

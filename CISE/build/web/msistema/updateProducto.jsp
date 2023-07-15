@@ -44,14 +44,14 @@
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label>Nombre Producto</label>
-                                                <input class="form-control" type="text" name="txtProducto" value="<%=productodto.getNombProducto() %>" required>
+                                                <input class="form-control" type="text" name="txtProducto" value="<%=productodto.getNombProducto() %>" pattern="^[a-zA-Z0-9\s]+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese su nombre de producto.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Cantidad</label>
-                                                <input class="form-control" type="text" name="txtCantidad" value="<%=productodto.getCantidad() %>" required>
+                                                <input class="form-control" type="text" name="txtCantidad" value="<%=productodto.getCantidad() %>" pattern="^\d+$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingresela cantidad de prodducto.
                                                 </div>
@@ -116,28 +116,28 @@
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 1</label>
-                                                <input class="form-control" type="text" name="txtTalla1" value="<%=productodto.getTalla1() %>" required>
+                                                <input class="form-control" type="text" name="txtTalla1" value="<%=productodto.getTalla1() %>" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 1.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 2</label>
-                                                <input class="form-control" type="text" name="txtTalla2" value="<%=productodto.getTalla2() %>" required>
+                                                <input class="form-control" type="text" name="txtTalla2" value="<%=productodto.getTalla2() %>" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 2.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 3</label>
-                                                <input class="form-control" type="text" name="txtTalla3" value="<%=productodto.getTalla3() %>" required>
+                                                <input class="form-control" type="text" name="txtTalla3" value="<%=productodto.getTalla3() %>" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 3.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>Talla 4</label>
-                                                <input class="form-control" type="text" name="txtTalla4" value="<%=productodto.getTalla4() %>" required>
+                                                <input class="form-control" type="text" name="txtTalla4" value="<%=productodto.getTalla4() %>" pattern="^[0-9]$" required>
                                                 <div class="invalid-feedback">
                                                     Por favor, ingrese la talla 4.
                                                 </div>
@@ -199,7 +199,7 @@
                                         </div>
                                         <div class="col-md-8">
                                             <div class="form-group">
-                                                <input type="submit" name="txtAccion" id="chkAceptar" value="actualizar" class="btn btn-info btn-block">
+                                                <input type="submit" name="txtAccion" value="actualizar" class="btn btn-info btn-block">
                                             </div>
                                         </div>
                                     </div>

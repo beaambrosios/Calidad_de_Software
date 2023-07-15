@@ -15,8 +15,7 @@
         <!--Google fonts-->
 
         <title>JSP Page</title>
-        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
-
+<script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/062e356f5fe6a7ffe90577fcdb6e2319"); h.appendChild(s); })(window, document);</script>
     </head>
     <body>
         <%@include file="WEB-INF/jspfTienda/nav.jspf" %>
@@ -40,7 +39,7 @@
                                                                 <i class="fas fa-user-alt"></i>
                                                             </span>
                                                         </div>
-                                                        <input type="text" class="form-control" name="txtCorreo" placeholder="Username" required>
+                                                        <input type="email" class="form-control" name="txtCorreo" placeholder="Username"  required>
                                                         <div class="invalid-feedback">
                                                             Por favor, ingrese su usuario.
                                                         </div>

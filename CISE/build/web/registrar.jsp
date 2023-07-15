@@ -28,7 +28,7 @@
                             </div>
                             <form class="card-body needs-validation" action="<%=request.getContextPath()%>/conusuario.do" method="post" novalidate>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" name="txtNombre" placeholder="nombre completo" required>
+                                    <input class="form-control" type="text" name="txtNombre" placeholder="nombre completo" pattern="[a-zA-Z ]+" required>
                                     <div class="invalid-feedback">
                                         Por favor, ingrese su nombre completo.
                                     </div>

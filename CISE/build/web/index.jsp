@@ -19,7 +19,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <%@include file="WEB-INF/jspfTienda/cStylos.jspf" %>
         <title>ChiniMini Importaciones</title>
-        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
+        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/062e356f5fe6a7ffe90577fcdb6e2319"); h.appendChild(s); })(window, document);</script>
     </head>
     <body>
         <%@include file="WEB-INF/jspfTienda/nav.jspf" %>
@@ -53,10 +53,10 @@
                     <div class="seccionIzquierda">
                         <div class="">
                             <ul>
-                                <li><a href="#">Todos</a></li>
-                                <li><a href="#">Niñas</a></li>
-                                <li><a href="#">Niños</a></li>
-                                <li><a href="#">Bebes</a></li>
+                                <li><a href="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=categoria&txtCategoria=0">Todos</a></li>
+                                <li><a href="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=categoria&txtCategoria=2">Niñas</a></li>
+                                <li><a href="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=categoria&txtCategoria=3">Niños</a></li>
+                                <li><a href="<%=request.getContextPath()%>/comcatalogo.do?txtAccion=categoria&txtCategoria=1">Bebes</a></li>
                             </ul>
                         </div>
                     </div>

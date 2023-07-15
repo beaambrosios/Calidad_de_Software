@@ -6,7 +6,10 @@
 package soft.cise.modeloDao;
 
 import java.sql.CallableStatement;
+import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import soft.cise.conexionDB.ConexionBD;
 import soft.cise.interfaces.OperacionesDB;
@@ -47,6 +50,22 @@ public class ventaProductosDAO implements OperacionesDB<compraDTO> {
         }
     }
 
+    public int obtenerUltimoIdVenta(){
+        int idVentaGenerado = 0;
+        String query = "SELECT MAX(idVenta) AS id FROM venta";
+        try (Connection conn = cn.getCon();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(query)) {
+            if (rs.next()) {
+                idVentaGenerado = rs.getInt("id");
+            }
+        } catch (SQLException e) {
+            System.out.println("Error al obtener Id de la venta" + e.getMessage());
+            e.printStackTrace();
+        }
+        return idVentaGenerado;
+    }
+    
     @Override
     public boolean sql_insert(compraDTO producto) {
         try {

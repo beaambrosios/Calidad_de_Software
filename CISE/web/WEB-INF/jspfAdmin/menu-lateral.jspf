@@ -5,9 +5,12 @@
     <div id="sideBar" class="active">
         <div class="contenedor-menu">
             <ul class="menuCabecera">
-                <li><a href="#">Administrador</a></li>
-                <li><img src="resource/img/admin/perfil2.jpg" class="imgPerfil"></li>
-                <li style="font-size: 12px;"><a><%=sessionOK.getAttribute("nombre") %></a></li>
+                <li><a href="#"><img src="resource/img/tienda/logo.png" alt="" width="200px"/></a></li>
+                <li><img src="resource/img/admin/perfil2.jpg" class="imgPerfil">
+                    
+                </li>
+                
+                <li style="font-size: 12px;"><a>Administrador: <%=sessionOK.getAttribute("nombre") %></a></li>
             </ul>
             <ul class="menu">
                 <li><a href="sistema.jsp"><i class="icono izquierda fa fa-home"></i> Sistema</a></li>

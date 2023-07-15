@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%-- 
     Document   : carrito
     Created on : 2023
@@ -22,8 +23,7 @@
         <%@include file="../WEB-INF/jspfTienda/cStylos.jspf" %>
         <link href="resource/css/allproduct.css" rel="stylesheet" type="text/css"/>
         <title>ChiniMini Importaciones</title>
-        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/5d1c5f7b36ad92bef25c00e52d6f5a2e"); h.appendChild(s); })(window, document);</script>
-
+        <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/062e356f5fe6a7ffe90577fcdb6e2319"); h.appendChild(s); })(window, document);</script>
     </head>
     <body>
         <%@include file="../WEB-INF/jspfTienda/nav.jspf" %>
@@ -127,7 +127,7 @@
                                                     <label>Nombre Completo</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtNombreCliente" required>
+                                                    <input class="form-control" type="text" name="txtNombreCliente" pattern="[a-zA-Z ]+" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su nombre completo.
                                                     </div>
@@ -140,7 +140,7 @@
                                                     <label>DNI</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDni" required>
+                                                    <input class="form-control" type="text" name="txtDni" pattern="\d{8}" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su DNI.
                                                     </div>
@@ -153,7 +153,7 @@
                                                     <label>Telefono 1</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtTelefono1" required>
+                                                    <input class="form-control" type="text" name="txtTelefono1" pattern="\d{9}" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su telefono.
                                                     </div>
@@ -166,7 +166,7 @@
                                                     <label>Telefono 2</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtTelefono2" required>
+                                                    <input class="form-control" type="text" name="txtTelefono2" pattern="\d{9}" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su telefono.
                                                     </div>
@@ -179,7 +179,7 @@
                                                     <label>Departamento</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDepartamento" required>
+                                                    <input class="form-control" type="text" name="txtDepartamento" pattern="[a-zA-Z ]+" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su departamento.
                                                     </div>
@@ -192,7 +192,7 @@
                                                     <label>Provincia</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtProvincia" required>
+                                                    <input class="form-control" type="text" name="txtProvincia" pattern="[a-zA-Z ]+" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su provincia.
                                                     </div>
@@ -205,7 +205,7 @@
                                                     <label>Distrito</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDistrito" required>
+                                                    <input class="form-control" type="text" name="txtDistrito" pattern="[a-zA-Z ]+" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su Distrito.
                                                     </div>
@@ -218,7 +218,7 @@
                                                     <label>Direccion</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="text" name="txtDireccion" required>
+                                                    <input class="form-control" type="text" name="txtDireccion" pattern="[a-zA-Z0-9 ]+" required>
                                                     <div class="invalid-feedback">
                                                     Por favor, ingrese su Direccion.
                                                     </div>
@@ -306,7 +306,7 @@
                                             <spam>Cuenta</spam>
                                         </div>
                                         <div class="col-md-8">
-                                            <input class="form-control" name="txtCuenta" type="text" required>
+                                            <input class="form-control" name="txtCuenta" type="text" pattern="\d+" required>
                                             <div class="invalid-feedback">
                                             Por favor, ingrese su cuenta.
                                             </div>

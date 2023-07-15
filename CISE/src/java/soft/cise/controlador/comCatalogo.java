@@ -13,8 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import soft.cise.modeloDTO.articuloDTO;
+import soft.cise.modeloDTO.categoriaDTO;
 import soft.cise.modeloDTO.compraDTO;
 import soft.cise.modeloDTO.productoDTO;
+import soft.cise.modeloDao.categoriaDAO;
 import soft.cise.modeloDao.metProduc;
 import soft.cise.modeloDao.ventaProductosDAO;
 
@@ -47,6 +49,14 @@ public class comCatalogo extends HttpServlet {
                 case "productoDescrip":
                     request.setAttribute("id", request.getParameter("id"));
                     request.getRequestDispatcher("mtienda/productoDescripcion.jsp").forward(request, response);
+                    break;
+                case "categoria":
+                    int idcategoria = Integer.parseInt(request.getParameter("txtCategoria"));
+                    categoriaDAO categoriadao = new categoriaDAO();
+                    ArrayList<categoriaDTO> categoria = categoriadao.categoria(idcategoria);
+                  
+                    request.getSession().setAttribute("categoria", categoria);
+                    request.getRequestDispatcher("mtienda/categoria.jsp").forward(request, response);
                     break;
                 case "Agregar CArrito":
                     int cantidad = Integer.parseInt(request.getParameter("txtCantidad"));
@@ -159,8 +169,10 @@ public class comCatalogo extends HttpServlet {
                         ventaProductosDAO ventaProducto = new ventaProductosDAO();
                         ventaProducto.sql_insert(compradto);
                         sessionOK.removeAttribute("carrito");
-
-                        request.getRequestDispatcher("index.jsp").forward(request, response);
+                        
+                        int idVenta = ventaProducto.obtenerUltimoIdVenta();
+                        response.sendRedirect("comcatalogo.do?txtAccion=detalleVentaProducto&txtIdVenta=" + idVenta);
+                       // request.getRequestDispatcher("index.jsp").forward(request, response);
                     }
                     break;
                     case "detalleVentaProducto":

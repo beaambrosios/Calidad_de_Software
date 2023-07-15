@@ -37,7 +37,7 @@
                                 %>
                             
                                 <input type="hidden" name="txtIdVenta" value="<%=compradto.getIdVenta()%>">
-                            <table class="table table-borderless">
+                            <table class="table table-borderless" style="margin-bottom: 0px">
                             <thead>
                               <tr>
                                 <th scope="col"><h6 class="card-title">Pedido N°: <span class="text-muted">13479790264-01</span></h6></th>
@@ -47,7 +47,7 @@
                             </thead>
                             </table>
                             
-                            <h6><i class="fas fa-store"></i> <span> Metodo de entrega:</span><span class="text-muted">Envio a Domicilio</span> </h6>
+                            <h6 style="margin-top: 0px"><i class="fas fa-store"></i> <span> Metodo de entrega:</span><span class="text-muted">Envio a Domicilio</span> </h6>
                             <h6><i class="fas fa-map-marked-alt"></i> <span> Direccion:</span><span class="text-muted"><%=compradto.getDireccion()%></span></h6>
                             <h6><i class="fas fa-user"></i> <span> ¿Quien recibira el pedido?:</span><span class="text-muted"> <%=compradto.getNombreCompleto()%></span></h6>
                             
@@ -64,7 +64,6 @@
                                 <th scope="col">Producto</th>
                                 <th scope="col">Descripcion</th>
                                 <th scope="col">Cantidad</th>
-                                <th scope="col">IGV Producto</th>
                                 <th scope="col">Precio</th>
                               </tr>
                             </thead>
@@ -75,20 +74,42 @@
                                   <td>${listaProductoV.nombProducto}</td>
                                   <td>${listaProductoV.descripcion}</td>
                                   <td>${listaProductoV.cantidad}</td>
-                                  <td>S/.${listaProductoV.IGV}</td>
+                                  
                                   <td>S/.${listaProductoV.totalProducto}</td>
                                 </tr>
                               </c:forEach>
+                                <tr>
+                                    <td colspan="5" style="text-align: center">
+                                        
+                                        <h6 style="margin-bottom: 0px">Escanee nuestro código QR o agregue nuestro número de celular y realice el pago con Yape.</h6>
+                                        <img src="resource/img/tienda/image-YapeQR.jpg" alt="" width="300"/>
+                                        <p style="margin: 0px;
+                                                  font-size: 1.2em;
+                                                  color: #742385;
+                                                  font-weight: bold;
+                                                  text-align: center;
+                                                  line-height: normal;
+                                                  text-decoration: none;">
+                                            Chinimini - Marianne Aldude Tipula
+                                        </p>
+                                        <p>
+                                            Instrucciones:<br>
+                                              1. Coloca en el monto el total a pagar.<br>
+                                              2. Coloca en la descripción el número del pedido.<br>
+                                              3. Yapea y envíanos la captura de pantalla por <a target="_blank" href="https://wa.me/51956592991?"><b>Whatsapp.</b></a><br>
+                                        </p>
+                                    </td>
+                                </tr>
                             </tbody>
                           </table>
                           
-                          <h4 class="text-info">Información de compra</h4>
+                          <h4 class="text-info">Detalles del Pedido</h4>
                           
                           <table class="table table-borderless">
                             <thead>
                               <tr>
-                                <th scope="col"><h5>Datos personales</h5></th>
-                                <th scope="col"><h5>Informacion de Pago</h5></th>
+                                <th scope="col">Datos personales</th>
+                                <th scope="col">Informacion de Pago</th>
                               </tr>
                             </thead>
                             <tbody>
